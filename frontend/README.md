@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+🏏 CricScore – Cricket Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CricScore is a full-stack Cricket Management System designed to manage matches, teams, players, and live scoring with a modern and intuitive interface.
 
-## Available Scripts
+🚀 Features
+🏠 Dashboard
+Overview of matches and system stats
+🏏 Match Management
+Create, view, and manage matches
+Support for T20 & Test formats
+Match results and summaries
+🔴 Live Scoring
+Real-time score updates
+Extendable for ball-by-ball tracking
+📂 Past Matches
+Access historical match data
+👥 Teams & Players
+Manage teams and player details
+📍 Venues
+Store and manage stadium information
+📊 Statistics
+Performance insights and analytics
+🛠️ Tech Stack
+Frontend
+React.js
+CSS / Modern UI
+Backend
+Node.js
+Express.js
+Database
+Oracle SQL
+📁 Project Structure
+cricscore/
+│
+├── backend/
+│   ├── routes/
+│   ├── server.js
+│   ├── db.js
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── package.json
+│
+├── database/
+│   ├── schema.sql
+│   ├── sample_data.sql
+│   └── queries.sql
+│
+└── README.md
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⚙️ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/your-username/cricscore.git
+cd cricscore
+2️⃣ Setup Backend
+cd backend
+npm install
+npm start
+3️⃣ Setup Frontend
+cd frontend
+npm install
+npm start
+4️⃣ Setup Database
+Import SQL files from /database into Oracle DB
+Update DB config in db.js
